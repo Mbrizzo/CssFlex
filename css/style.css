@@ -87,3 +87,45 @@ img{
 .menu-nav a:hover{
   color: white;
 }
+
+/* Intrdução */
+
+.introducao {
+  font-size: 3em;
+  line-height: 1;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 10px;
+}
+
+.sobre {
+  border-top: 2px solid #3CB371;
+  border-bottom: 2px solid #3CB371;
+  max-width: 960px;
+  margin: 0 auto;
+  pad: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sobre-info {
+  flex: 2;
+  margin: 0 10px;
+}
+
+.sobre-info h1 {
+  font-size: 3em;
+  margin-bottom: 5em;
+}
+
+.sobre-info p {
+  font-size: 1.25em;
+  line-height: 1.4;
+  margin-bottom: 1em;
+  color: #7c7c7c;
+}
+
+.sobre-img {
+  flex: 1;
+  margin: 0 10px;
+}
