@@ -170,7 +170,7 @@ img {
 
 .preco-curso h2 {
   font-size: 3em;
-  color: #3A4036;
+  color: white;
   text-align: center;
   margin-top: 20px;
 }
@@ -182,8 +182,8 @@ img {
   font-size: 3em;
   text-align: center;
   font-weight: bold;
-  padding: 10px 0 5px 0;
-  border-top: 4px solid white;
+  padding: 10px 30px 5px 0;
+  border-top: 4px solid greenyellow;
 }
 
 .preco-curso sup {
