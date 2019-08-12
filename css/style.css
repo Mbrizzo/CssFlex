@@ -1,27 +1,28 @@
 body, h1, h2, p, ul, li, a {
-  margin: 0px;
-  padding: 0px;
+	margin: 0px;
+	padding: 0px;
 }
+
 body {
-  font-family: "Nunito", Helvetica, Arial, sans-serif;
-  color: #222222;
+	font-family: "Nunito", Helvetica, Arial, sans-serif;
+	color: #222222;
 }
 
 ul {
-  list-style: none;
+	list-style: none;
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
-img{
-  display: block;
-  max-width: 100px;
+img {
+	display: block;
+	max-width: 100%;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 /* Info */
 
@@ -39,7 +40,7 @@ img{
   padding-top: 10px;
 }
 
-.info p, info a{
+.info p, .info a{
   margin: 0 10px 10px 10px;
 }
 
@@ -109,13 +110,13 @@ img{
 }
 
 .sobre-info {
-  flex: 2;
+  flex: 2 1 300px;
   margin: 0 10px;
 }
 
 .sobre-info h1 {
   font-size: 3em;
-  margin-bottom: 5em;
+  margin-bottom: .5em;
 }
 
 .sobre-info p {
@@ -128,4 +129,82 @@ img{
 .sobre-img {
   flex: 1;
   margin: 0 10px;
+}
+
+/* Cursos */
+
+.cursos {
+  max-width: 960px;
+  margin: 60px auto;
+    
+}
+
+.cursos h1 {
+  font-size: 3em;
+  margin: 0 10px 60px 10px;
+
+}
+
+.cursos-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;  
+}
+
+/* Preço */
+
+.preco {
+  background: #3A4036;
+  padding: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;  
+}
+
+.preco.curso {
+  flex: 1;
+  border: 4px solid white;
+  padding: 20px;
+  margin: 10px;
+}
+
+.preco-curso h2 {
+  font-size: 3em;
+  color: #3A4036;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.preco-curso span {
+  max-width: 300px;
+  margin: 20px, auto;
+  display: block;
+  font-size: 3em;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0 5px 0;
+  border-top: 4px solid white;
+}
+
+.preco-curso sup {
+  font-size: 1.5em;
+}
+
+.preco-curso ul {
+  max-width: 300px;
+  margin: 20px auto;
+  font-size: 1.25em;
+  font-style: italic;
+  color: #7c7c7c;
+}
+
+.preco-curso li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.preco-curso li::after {
+
 }
