@@ -127,7 +127,7 @@ img {
 }
 
 .sobre-img {
-  flex: 1;
+  flex: 1 1 160px;
   margin: 0 10px;
 }
 
@@ -151,6 +151,18 @@ img {
   align-items: flex-end;  
 }
 
+.cursos-item {
+  flex: 1 ;
+  margin: 10px;
+}
+
+.cursos-item h2 {
+  font-size: 3em;
+  color: #a4a4a4;
+  background: #f7f7f7;
+  padding: 60px 20px;
+}
+
 /* Preço */
 
 .preco {
@@ -158,11 +170,11 @@ img {
   padding: 60px;
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;  
+  align-items: flex-end;  
 }
 
 .preco.curso {
-  flex: 1;
+  flex: 1 ;
   border: 4px solid white;
   padding: 20px;
   margin: 10px;
