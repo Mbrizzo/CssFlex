@@ -110,7 +110,7 @@ img {
 }
 
 .sobre-info {
-  flex: 2 1 300px;
+  flex: 2 1 200px;
   margin: 0 10px;
 }
 
@@ -128,7 +128,8 @@ img {
 
 .sobre-img {
   flex: 1 1 160px;
-  margin: 0 10px;
+  margin: 0 20px;
+  padding: 20px;
 }
 
 /* Cursos */
