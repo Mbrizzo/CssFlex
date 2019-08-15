@@ -167,8 +167,8 @@ img {
 /* Preço */
 
 .preco {
-  background: #FAEBD7;
-  padding: 60px;
+  background: #F7F7F7;
+  padding: 200px;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;  
@@ -205,7 +205,7 @@ img {
 
 .preco-curso ul {
   max-width: 300px;
-  margin: 20px auto;
+  margin: 50px auto;
   font-size: 1.25em;
   font-style: italic;
   color: #7c7c7c;
@@ -394,3 +394,16 @@ img {
   justify-content: center;
   align-items: center;
 }
+
+/modal {
+  border: solid 5px #000000;
+  padding: 5px;
+  color: #f7f7f7;
+  font-weight: bold;
+}
+
+.fechar {  
+  color: red;
+  display: grid;
+  font-weight: bold;  
+} 
