@@ -1,21 +1,20 @@
 export default function initModal() {
 
-  console.log('opa');
-  
-  // const btnAbrir = document.querySelector('[data-modal="abrir"]');
-  // const btnFechar = document.querySelector('[data-modal="fechar"]');
-  // const containerModal = document.querySelector('[data-modal="container"]');
+  const btnAbrir = document.querySelector('[data-modal="abrir"]');
+  const btnFechar = document.querySelector('[data-modal="fechar"]');
+  const containerModal = document.querySelector('[data-modal="container"]');
 
-  // function abrirModal() {
+  function abrirModal(event) {
+    event.preventDefault();
+    containerModal.classList.add('ativo');
+  }
 
-  // }
+   function fecharModal(event){
+     event.preventDefault();
+     containerModal.classList.remove('ativo');
 
-  // function fecharModal(){
-
-  // }
-
-  // btnAbrir.addEventListener('click', abrirModal);
-  // btnFechar.addEventListener('click', fecharModal);
-
+   }
+   btnAbrir.addEventListener('click', abrirModal);
+   btnFechar.addEventListener('click', fecharModal);
 }
 
